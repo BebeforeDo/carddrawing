@@ -1,0 +1,93 @@
+#pageTitle {
+    font-size: 2em;
+    color:#fff;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#subTitle {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1b1b1b;
+    font-family: Arial, sans-serif;
+}
+#card {
+    
+    background: url('images/back.png') no-repeat center/contain;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+    position: relative;
+}
+#card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#drawCardButton {
+    padding: 10px 15px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+#drawCardButton:hover {
+    background-color: #2d6b30;
+}
+#cardName {
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+#readButton {
+    padding: 10px 15px;
+    font-size: 1.2em;
+    background-color: #008a97;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    line-height: 1.5;
+}
+#readButton:hover {
+    background-color: #00646d;
+}
+
+#slowBreathText {
+    font-size: 1.2em;
+    color:#fff;
+    font-weight:bold;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.faded-text {
+    color: #737373 !important;
+}
+
+/* 抽出的牌的名稱與屬性 */
+#cardInfo {
+    font-size: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}

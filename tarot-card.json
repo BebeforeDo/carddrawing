@@ -1,0 +1,620 @@
+[
+    {
+        "name_english": "Chariot",
+        "name_chinese": "戰車",
+        "image": "images/Chariot.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180a29f04f2c555f0f50e?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups01",
+        "name_chinese": "聖杯一",
+        "image": "images/Cups01.png",
+        "detailUrl": "notion://www.notion.so/a4e78208ae01471882a095a080232d15?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups02",
+        "name_chinese": "聖杯二",
+        "image": "images/Cups02.png",
+        "detailUrl": "notion://www.notion.so/58491c9b578845ada3771e16abd4116d?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups03",
+        "name_chinese": "聖杯三",
+        "image": "images/Cups03.png",
+        "detailUrl": "notion://www.notion.so/b8f6dc1115ba4b21b40b870efb032dfb?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups04",
+        "name_chinese": "聖杯四",
+        "image": "images/Cups04.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180feb566e60a5ea558c8?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups05",
+        "name_chinese": "聖杯五",
+        "image": "images/Cups05.png",
+        "detailUrl": "notion://www.notion.so/11522e95356180e488b3cabfdcd7d366?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups06",
+        "name_chinese": "聖杯六",
+        "image": "images/Cups06.png",
+        "detailUrl": "notion://www.notion.so/11522e9535618092bf02c95944afffb8?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups07",
+        "name_chinese": "聖杯七",
+        "image": "images/Cups07.png",
+        "detailUrl": "notion://www.notion.so/11522e95356180e68419ea7ee79125b6?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups08",
+        "name_chinese": "聖杯八",
+        "image": "images/Cups08.png",
+        "detailUrl": "notion://www.notion.so/11522e95356180fc98b0ed373fe3918b?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups09",
+        "name_chinese": "聖杯九",
+        "image": "images/Cups09.png",
+        "detailUrl": "notion://www.notion.so/11522e95356180d3b6b5d902c077620c?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups10",
+        "name_chinese": "聖杯十",
+        "image": "images/Cups10.png",
+        "detailUrl": "notion://www.notion.so/11522e953561803bbc2bfe8bc1483794?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups11",
+        "name_chinese": "聖杯侍者",
+        "image": "images/Cups11.png",
+        "detailUrl": "notion://www.notion.so/11522e953561802cb972e272a01a6237?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups12",
+        "name_chinese": "聖杯騎士",
+        "image": "images/Cups12.png",
+        "detailUrl": "notion://www.notion.so/11622e9535618034a59fd511950dceaa?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups13",
+        "name_chinese": "聖杯皇后",
+        "image": "images/Cups13.png",
+        "detailUrl": "notion://www.notion.so/11622e953561809a9291ff60af26f68c?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups14",
+        "name_chinese": "聖杯國王",
+        "image": "images/Cups14.png",
+        "detailUrl": "notion://www.notion.so/11622e9535618015bb18f1425b792a4d?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Death",
+        "name_chinese": "死神",
+        "image": "images/Death.png",
+        "detailUrl": "notion://www.notion.so/11422e953561807cac48d21d014a4ec1?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Devil",
+        "name_chinese": "惡魔",
+        "image": "images/Devil.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180b3b38ef04ceb83ca7f?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Emperor",
+        "name_chinese": "皇帝",
+        "image": "images/Emperor.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180e0b48ed02f0e733e26?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Empress",
+        "name_chinese": "皇后",
+        "image": "images/Empress.png",
+        "detailUrl": "notion://www.notion.so/11422e953561806c83f3d7e928bb9840?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Fool",
+        "name_chinese": "愚者",
+        "image": "images/Fool.png",
+        "detailUrl": "notion://www.notion.so/8812c0b0431f4c668a8ad55928e0dece?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Hanged_Man",
+        "name_chinese": "吊人",
+        "image": "images/Hanged_Man.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618037b4cfc9adda627965?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Hermit",
+        "name_chinese": "隱者",
+        "image": "images/Hermit.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180c6b898de7a1b9e3483?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Hierophant",
+        "name_chinese": "教宗",
+        "image": "images/Hierophant.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618093838ae1ecc7e08bc2?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "High_Priestess",
+        "name_chinese": "女祭司",
+        "image": "images/High_Priestess.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618072947ee383e13399cc?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "審判",
+        "name_chinese": "假名",
+        "image": "images/Judgement.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180f5b51ed4bb1c015d8e?pvs=4"
+    },
+    {
+        "name_english": "Justice",
+        "name_chinese": "正義",
+        "image": "images/Justice.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618032a358d10e8dbf0fc5?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Lovers",
+        "name_chinese": "戀人",
+        "image": "images/Lovers.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618059951edd40028d3737?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Magician",
+        "name_chinese": "魔術師",
+        "image": "images/Magician.png",
+        "detailUrl": "notion://www.notion.so/df7dd4061964421ebdc6250cc07c29d8?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Moon",
+        "name_chinese": "月亮",
+        "image": "images/Moon.png",
+        "detailUrl": "notion://www.notion.so/11422e953561808e83e9d810ef5f405c?pvs=4",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Pents01",
+        "name_chinese": "錢幣一",
+        "image": "images/Pents01.png",
+        "detailUrl": "notion://www.notion.so/98bdc671ff2c406dbfd190d9da5ecb1d?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents02",
+        "name_chinese": "錢幣二",
+        "image": "images/Pents02.png",
+        "detailUrl": "notion://www.notion.so/53571d43381a4e9eba08fd8dea95318a?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents03",
+        "name_chinese": "錢幣三",
+        "image": "images/Pents03.png",
+        "detailUrl": "notion://www.notion.so/da3713c1673d47b19a97c86e2c65181d?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents04",
+        "name_chinese": "錢幣四",
+        "image": "images/Pents04.png",
+        "detailUrl": "notion://www.notion.so/11622e95356180eebef7c59e8bf5fbcc?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents05",
+        "name_chinese": "錢幣五",
+        "image": "images/Pents05.png",
+        "detailUrl": "notion://www.notion.so/11622e953561808780b4d51ca7a660dd?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents06",
+        "name_chinese": "錢幣六",
+        "image": "images/Pents06.png",
+        "detailUrl": "notion://www.notion.so/11622e953561809fbc65cdec312f4a4f?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents07",
+        "name_chinese": "錢幣七",
+        "image": "images/Pents07.png",
+        "detailUrl": "notion://www.notion.so/11622e95356180ac8ac4e2255c5fd9ab?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents08",
+        "name_chinese": "錢幣八",
+        "image": "images/Pents08.png",
+        "detailUrl": "notion://www.notion.so/11622e953561807ea3eef1410bfd401b?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents09",
+        "name_chinese": "錢幣九",
+        "image": "images/Pents09.png",
+        "detailUrl": "notion://www.notion.so/11622e95356180ff8de1e74443fbe83b?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents10",
+        "name_chinese": "錢幣十",
+        "image": "images/Pents10.png",
+        "detailUrl": "notion://www.notion.so/11622e9535618018a31fe840e5fd4eab?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents11",
+        "name_chinese": "錢幣侍者",
+        "image": "images/Pents11.png",
+        "detailUrl": "notion://www.notion.so/11622e9535618061ab06d393be2d04fa?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents12",
+        "name_chinese": "錢幣騎士",
+        "image": "images/Pents12.png",
+        "detailUrl": "notion://www.notion.so/11622e95356180aa84aac066344bba57?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents13",
+        "name_chinese": "錢幣皇后",
+        "image": "images/Pents13.png",
+        "detailUrl": "notion://www.notion.so/11622e95356180b5a17ad67e5c74e2fb?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents14",
+        "name_chinese": "錢幣國王",
+        "image": "images/Pents14.png",
+        "detailUrl": "notion://www.notion.so/11622e95356180eeaba4f0502bd5d8a9?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Star",
+        "name_chinese": "星星",
+        "image": "images/Star.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180178444ebfb3ba9620b?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Strength",
+        "name_chinese": "力量",
+        "image": "images/Strength.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180868fe3f6198749ec71?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Sun",
+        "name_chinese": "太陽",
+        "image": "images/Sun.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180bea399c3cc477d8f49?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Swords01",
+        "name_chinese": "寶劍一",
+        "image": "images/Swords01.png",
+        "detailUrl": "notion://www.notion.so/06b19b3cfb7549afb48f3d9839398f5e?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords02",
+        "name_chinese": "寶劍二",
+        "image": "images/Swords02.png",
+        "detailUrl": "notion://www.notion.so/c9a66f41f761466c9c7ea982eb8e4b04?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords03",
+        "name_chinese": "寶劍三",
+        "image": "images/Swords03.png",
+        "detailUrl": "notion://www.notion.so/e32b8d866cd743e0a83be32dc1143ae1?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords04",
+        "name_chinese": "寶劍四",
+        "image": "images/Swords04.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180a4ba39f6d84045a49a?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords05",
+        "name_chinese": "寶劍五",
+        "image": "images/Swords05.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180bf9ca4c12fb6c943fa?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords06",
+        "name_chinese": "寶劍六",
+        "image": "images/Swords06.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180dca70df1f88184941f?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords07",
+        "name_chinese": "寶劍七",
+        "image": "images/Swords07.png",
+        "detailUrl": "notion://www.notion.so/11422e953561801ea651ed50786655b0?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords08",
+        "name_chinese": "寶劍八",
+        "image": "images/Swords08.png",
+        "detailUrl": "notion://www.notion.so/11422e953561805191dadcec38162266?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords09",
+        "name_chinese": "寶劍九",
+        "image": "images/Swords09.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618077bf6cff7b2b10a43d?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords10",
+        "name_chinese": "寶劍十",
+        "image": "images/Swords10.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180049ff5dbd16bf41c05?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords11",
+        "name_chinese": "寶劍侍者",
+        "image": "images/Swords11.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618097a42cc53d1a7306d7?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords12",
+        "name_chinese": "寶劍騎士",
+        "image": "images/Swords12.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180599b10d3ca829409db?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords13",
+        "name_chinese": "寶劍皇后",
+        "image": "images/Swords13.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180b8849bc1c3f6ad7b40?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords14",
+        "name_chinese": "寶劍國王",
+        "image": "images/Swords14.png",
+        "detailUrl": "notion://www.notion.so/11422e953561800d9709d3d686aae11a?pvs=4",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Temperance",
+        "name_chinese": "節制",
+        "image": "images/Temperance.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180a0939dd0f06ddb3401?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Tower",
+        "name_chinese": "塔",
+        "image": "images/Tower.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180f69fd8fe7dfff6451b?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands01",
+        "name_chinese": "權杖一",
+        "image": "images/Wands01.png",
+        "detailUrl": "notion://www.notion.so/e7ec93819a3547b3ba518619dc78cd77?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands02",
+        "name_chinese": "權杖二",
+        "image": "images/Wands02.png",
+        "detailUrl": "notion://www.notion.so/c4bedbd5b19e4165984054f67b37abd6?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands03",
+        "name_chinese": "權杖三",
+        "image": "images/Wands03.png",
+        "detailUrl": "notion://www.notion.so/d80f0feb534f4d1c914226fac84f8137?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands04",
+        "name_chinese": "權杖四",
+        "image": "images/Wands04.png",
+        "detailUrl": "notion://www.notion.so/11422e953561803984e2f91067ad6d47?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands05",
+        "name_chinese": "權杖五",
+        "image": "images/Wands05.png",
+        "detailUrl": "notion://www.notion.so/11422e953561805a93bdd035328ce22f?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands06",
+        "name_chinese": "權杖六",
+        "image": "images/Wands06.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180e4a5bfd562a804a4e5?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands07",
+        "name_chinese": "權杖七",
+        "image": "images/Wands07.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180988b58cced01946bd7?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands08",
+        "name_chinese": "權杖八",
+        "image": "images/Wands08.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180b589a7c46e6feb10f5?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands09",
+        "name_chinese": "權杖九",
+        "image": "images/Wands09.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180cdaad4e99c91a8b79d?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands10",
+        "name_chinese": "權杖十",
+        "image": "images/Wands10.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180e0bf9fc1a0ea6b1b67?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "權杖侍者",
+        "name_chinese": "假名",
+        "image": "images/Wands11.png",
+        "detailUrl": "notion://www.notion.so/11422e95356180ff8fd7dbb4f766c416?pvs=4"
+    },
+    {
+        "name_english": "Wands12",
+        "name_chinese": "權杖騎士",
+        "image": "images/Wands12.png",
+        "detailUrl": "notion://www.notion.so/11422e9535618058b9c5f45f17fb952a?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands13",
+        "name_chinese": "權杖皇后",
+        "image": "images/Wands13.png",
+        "detailUrl": "notion://www.notion.so/11422e953561801ba388d3edb2985e97?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "權杖國王",
+        "name_chinese": "假名",
+        "image": "images/Wands14.png",
+        "detailUrl": "notion://www.notion.so/11422e953561809886f0c217115df122?pvs=4"
+    },
+    {
+        "name_english": "Wheel_of_Fortune",
+        "name_chinese": "命運之輪",
+        "image": "images/Wheel_of_Fortune.png",
+        "detailUrl": "notion://www.notion.so/11422e953561801eb691cb05667e2cdb?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "World",
+        "name_chinese": "世界",
+        "image": "images/World.png",
+        "detailUrl": "notion://www.notion.so/11422e953561802ebf20c87931abc0be?pvs=4",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    }
+]
