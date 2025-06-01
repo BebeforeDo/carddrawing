@@ -192,10 +192,12 @@
         "element_english": "water element"
     },
     {
-        "name_english": "審判",
-        "name_chinese": "假名",
+        "name_english": "Judgement",
+        "name_chinese": "審判",
         "image": "images/Judgement.png",
-        "detailUrl": "notion://www.notion.so/11422e95356180f5b51ed4bb1c015d8e?pvs=4"
+        "detailUrl": "notion://www.notion.so/11422e95356180f5b51ed4bb1c015d8e?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
     },
     {
         "name_english": "Justice",
@@ -574,10 +576,12 @@
         "element_english": "fire element"
     },
     {
-        "name_english": "權杖侍者",
-        "name_chinese": "假名",
+        "name_english": "Wands11",
+        "name_chinese": "權杖侍者",
         "image": "images/Wands11.png",
-        "detailUrl": "notion://www.notion.so/11422e95356180ff8fd7dbb4f766c416?pvs=4"
+        "detailUrl": "notion://www.notion.so/11422e95356180ff8fd7dbb4f766c416?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
     },
     {
         "name_english": "Wands12",
@@ -596,10 +600,12 @@
         "element_english": "fire element"
     },
     {
-        "name_english": "權杖國王",
-        "name_chinese": "假名",
+        "name_english": "Wand14",
+        "name_chinese": "權杖國王",
         "image": "images/Wands14.png",
-        "detailUrl": "notion://www.notion.so/11422e953561809886f0c217115df122?pvs=4"
+        "detailUrl": "notion://www.notion.so/11422e953561809886f0c217115df122?pvs=4",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
     },
     {
         "name_english": "Wheel_of_Fortune",
