@@ -1,0 +1,626 @@
+[
+    {
+        "name_english": "Chariot",
+        "name_chinese": "戰車",
+        "image": "images/Chariot.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-07",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups01",
+        "name_chinese": "聖杯一",
+        "image": "images/Cups01.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-01",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups02",
+        "name_chinese": "聖杯二",
+        "image": "images/Cups02.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-02",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups03",
+        "name_chinese": "聖杯三",
+        "image": "images/Cups03.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-03",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups04",
+        "name_chinese": "聖杯四",
+        "image": "images/Cups04.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-04",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups05",
+        "name_chinese": "聖杯五",
+        "image": "images/Cups05.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-05",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups06",
+        "name_chinese": "聖杯六",
+        "image": "images/Cups06.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-06",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups07",
+        "name_chinese": "聖杯七",
+        "image": "images/Cups07.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-07",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups08",
+        "name_chinese": "聖杯八",
+        "image": "images/Cups08.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-08",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups09",
+        "name_chinese": "聖杯九",
+        "image": "images/Cups09.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-09",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups10",
+        "name_chinese": "聖杯十",
+        "image": "images/Cups10.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-10",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups11",
+        "name_chinese": "聖杯侍者",
+        "image": "images/Cups11.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-pa",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups12",
+        "name_chinese": "聖杯騎士",
+        "image": "images/Cups12.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-kn",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups13",
+        "name_chinese": "聖杯皇后",
+        "image": "images/Cups13.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-qu",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Cups14",
+        "name_chinese": "聖杯國王",
+        "image": "images/Cups14.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-cups-ki",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Death",
+        "name_chinese": "死亡",
+        "image": "images/Death.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-13",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Devil",
+        "name_chinese": "惡魔",
+        "image": "images/Devil.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-15",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Emperor",
+        "name_chinese": "皇帝",
+        "image": "images/Emperor.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-04",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Empress",
+        "name_chinese": "皇后",
+        "image": "images/Empress.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-03",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Fool",
+        "name_chinese": "愚人",
+        "image": "images/Fool.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-00",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Hanged_Man",
+        "name_chinese": "吊人",
+        "image": "images/Hanged_Man.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-12",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Hermit",
+        "name_chinese": "隱者",
+        "image": "images/Hermit.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-09",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Hierophant",
+        "name_chinese": "教皇",
+        "image": "images/Hierophant.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-05",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "High_Priestess",
+        "name_chinese": "女祭司",
+        "image": "images/High_Priestess.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-02",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Judgement",
+        "name_chinese": "審判",
+        "image": "images/Judgement.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-20",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Justice",
+        "name_chinese": "正義",
+        "image": "images/Justice.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-11",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Lovers",
+        "name_chinese": "戀人",
+        "image": "images/Lovers.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-06",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Magician",
+        "name_chinese": "魔術師",
+        "image": "images/Magician.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-01",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Moon",
+        "name_chinese": "月亮",
+        "image": "images/Moon.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-18",
+        "element_chinese": "水元素",
+        "element_english": "water element"
+    },
+    {
+        "name_english": "Pents01",
+        "name_chinese": "錢幣一",
+        "image": "images/Pents01.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-01",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents02",
+        "name_chinese": "錢幣二",
+        "image": "images/Pents02.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-02",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents03",
+        "name_chinese": "錢幣三",
+        "image": "images/Pents03.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-03",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents04",
+        "name_chinese": "錢幣四",
+        "image": "images/Pents04.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-04",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents05",
+        "name_chinese": "錢幣五",
+        "image": "images/Pents05.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-05",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents06",
+        "name_chinese": "錢幣六",
+        "image": "images/Pents06.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-06",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents07",
+        "name_chinese": "錢幣七",
+        "image": "images/Pents07.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-07",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents08",
+        "name_chinese": "錢幣八",
+        "image": "images/Pents08.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-08",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents09",
+        "name_chinese": "錢幣九",
+        "image": "images/Pents09.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-09",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents10",
+        "name_chinese": "錢幣十",
+        "image": "images/Pents10.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-10",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents11",
+        "name_chinese": "錢幣侍者",
+        "image": "images/Pents11.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-pa",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents12",
+        "name_chinese": "錢幣騎士",
+        "image": "images/Pents12.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-kn",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents13",
+        "name_chinese": "錢幣皇后",
+        "image": "images/Pents13.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-qu",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Pents14",
+        "name_chinese": "錢幣國王",
+        "image": "images/Pents14.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-pentacles-ki",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    },
+    {
+        "name_english": "Star",
+        "name_chinese": "星星",
+        "image": "images/Star.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-17",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Strength",
+        "name_chinese": "力量",
+        "image": "images/Strength.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-08",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Sun",
+        "name_chinese": "太陽",
+        "image": "images/Sun.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-19",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Swords01",
+        "name_chinese": "寶劍一",
+        "image": "images/Swords01.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-01",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords02",
+        "name_chinese": "寶劍二",
+        "image": "images/Swords02.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-02",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords03",
+        "name_chinese": "寶劍三",
+        "image": "images/Swords03.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-03",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords04",
+        "name_chinese": "寶劍四",
+        "image": "images/Swords04.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-04",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords05",
+        "name_chinese": "寶劍五",
+        "image": "images/Swords05.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-05",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords06",
+        "name_chinese": "寶劍六",
+        "image": "images/Swords06.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-06",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords07",
+        "name_chinese": "寶劍七",
+        "image": "images/Swords07.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-07",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords08",
+        "name_chinese": "寶劍八",
+        "image": "images/Swords08.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-08",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords09",
+        "name_chinese": "寶劍九",
+        "image": "images/Swords09.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-09",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords10",
+        "name_chinese": "寶劍十",
+        "image": "images/Swords10.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-10",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords11",
+        "name_chinese": "寶劍侍者",
+        "image": "images/Swords11.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-pa",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords12",
+        "name_chinese": "寶劍騎士",
+        "image": "images/Swords12.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-kn",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords13",
+        "name_chinese": "寶劍皇后",
+        "image": "images/Swords13.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-qu",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Swords14",
+        "name_chinese": "寶劍國王",
+        "image": "images/Swords14.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-swords-ki",
+        "element_chinese": "風元素",
+        "element_english": "air element"
+    },
+    {
+        "name_english": "Temperance",
+        "name_chinese": "節制",
+        "image": "images/Temperance.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-14",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Tower",
+        "name_chinese": "高塔",
+        "image": "images/Tower.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-16",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands01",
+        "name_chinese": "權杖一",
+        "image": "images/Wands01.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-01",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands02",
+        "name_chinese": "權杖二",
+        "image": "images/Wands02.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-02",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands03",
+        "name_chinese": "權杖三",
+        "image": "images/Wands03.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-03",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands04",
+        "name_chinese": "權杖四",
+        "image": "images/Wands04.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-04",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands05",
+        "name_chinese": "權杖五",
+        "image": "images/Wands05.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-05",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands06",
+        "name_chinese": "權杖六",
+        "image": "images/Wands06.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-06",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands07",
+        "name_chinese": "權杖七",
+        "image": "images/Wands07.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-07",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands08",
+        "name_chinese": "權杖八",
+        "image": "images/Wands08.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-08",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands09",
+        "name_chinese": "權杖九",
+        "image": "images/Wands09.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-09",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands10",
+        "name_chinese": "權杖十",
+        "image": "images/Wands10.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-10",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands11",
+        "name_chinese": "權杖侍者",
+        "image": "images/Wands11.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-pa",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands12",
+        "name_chinese": "權杖騎士",
+        "image": "images/Wands12.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-kn",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wands13",
+        "name_chinese": "權杖皇后",
+        "image": "images/Wands13.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-qu",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wand14",
+        "name_chinese": "權杖國王",
+        "image": "images/Wands14.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-wands-ki",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "Wheel_of_Fortune",
+        "name_chinese": "命運之輪",
+        "image": "images/Wheel_of_Fortune.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-10",
+        "element_chinese": "火元素",
+        "element_english": "fire element"
+    },
+    {
+        "name_english": "World",
+        "name_chinese": "世界",
+        "image": "images/World.png",
+        "detailUrl": "https://www.iamfeeling.com/p/tarot-major-21",
+        "element_chinese": "土元素",
+        "element_english": "earth element"
+    }
+]

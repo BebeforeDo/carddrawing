@@ -1,4 +1,4 @@
-fetch('tarot-card.json')
+fetch('updated_tarot-card.json')
     .then(response => response.json())
     .then(data => {
         const tarotCards = data;
@@ -13,6 +13,9 @@ fetch('tarot-card.json')
         const pageTitle = document.getElementById('pageTitle');
         const subTitle = document.getElementById('subTitle');
         const slowBreathText = document.getElementById('slowBreathText');
+        
+        // 提前獲取 cardInfo 元素
+        const cardInfo = document.getElementById('cardInfo');
         
 
 
@@ -43,22 +46,23 @@ fetch('tarot-card.json')
                 card.style.transform = 'rotateY(0deg)';
                 card.style.background = `url('${selectedCard.image}') no-repeat center/contain`;
         
-                // 顯示塔羅牌名稱和元素屬性
-                let cardInfo = document.getElementById('cardInfo');
-                if (!cardInfo) {
-                    cardInfo = document.createElement('p');
-                    cardInfo.id = 'cardInfo';
-                    document.body.appendChild(cardInfo);
-                }
+                // 顯示塔羅牌名稱和元素屬性 (在卡片上方)
+                // 移除原本動態創建的邏輯
                 cardInfo.innerHTML = `${selectedCard.name_chinese} / ${selectedCard.element_chinese}`;
+                cardInfo.style.display = 'block'; // 讓它顯示出來
         
-                // 移除 "看說明" 按鈕
+                // 顯示 "看牌義" 按鈕並綁定事件
+                // 替換原本移除按鈕的邏輯
                 if (readButton) {
-                    readButton.remove();
+                    readButton.style.display = 'block'; // 顯示按鈕
+                    readButton.addEventListener('click', () => {
+                        // 點擊後導向 detailUrl，在新分頁開啟
+                        window.open(selectedCard.detailUrl, '_blank');
+                    });
                 }
         
-                // 修改標題顏色
-                pageTitle.classList.add('faded-text');
+                // 修改標題：從淡化改為直接隱藏(刪除)
+                pageTitle.style.display = 'none';
         
                 // 隱藏抽卡按鈕和提示文字
                 drawCardButton.style.display = 'none';

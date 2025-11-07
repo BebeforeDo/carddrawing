@@ -89,5 +89,6 @@ body {
     font-size: 1.5em;
     color: #fff;
     text-align: center;
-    margin-top: 10px;
+    /* 確保在卡片上方有間距 */
+    margin-bottom: 20px; 
 }
