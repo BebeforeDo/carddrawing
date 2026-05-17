@@ -53,13 +53,18 @@ fetch('updated_tarot-card.json')
         
                 // 顯示 "看牌義" 按鈕並綁定事件
                 // 替換原本移除按鈕的邏輯
-                if (readButton) {
-                    readButton.style.display = 'block'; // 顯示按鈕
-                    readButton.addEventListener('click', () => {
-                        // 點擊後導向 detailUrl，在新分頁開啟
-                        window.open(selectedCard.detailUrl, '_blank');
-                    });
-                }
+               if (readButton) {
+    readButton.style.display = 'block';
+    readButton.addEventListener('click', () => {
+        window.open(selectedCard.detailUrl, '_blank');
+    });
+}
+
+// 顯示訂閱提示
+const subscribeHint = document.getElementById('subscribeHint');
+if (subscribeHint) {
+    subscribeHint.style.display = 'block';
+}
         
                 // 修改標題：從淡化改為直接隱藏(刪除)
                 pageTitle.style.display = 'none';
