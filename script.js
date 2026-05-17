@@ -61,9 +61,7 @@ fetch('updated_tarot-card.json')
 }
 
 // 顯示訂閱提示
-const subscribeHint = document.getElementById('subscribeHint');
-if (subscribeHint) {
-    subscribeHint.style.display = 'block';
+
 }
         
                 // 修改標題：從淡化改為直接隱藏(刪除)
