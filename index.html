@@ -1,23 +1,510 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>塔羅牌抽牌程式</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iamfeeling™ — 每日抽牌，走進 98%</title>
+  <style>
+    :root {
+      --c-bg: #111110;
+      --c-surface: #1b1b1b;
+      --c-text: #f0f0ec;
+      --c-sub: #999992;
+      --c-ter: #555550;
+      --c-border: #2a2a28;
+      --c-green: #1D9E75;
+      --c-green-bg: rgba(29,158,117,0.12);
+      --r-sm: 8px;
+      --r-md: 12px;
+      --r-lg: 16px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--c-bg);
+      color: var(--c-text);
+      font-family: 'Georgia', serif;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+
+    /* ── NAV ── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17,17,16,0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 0.5px solid var(--c-border);
+    }
+
+    .nav-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--c-text);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 13px;
+      color: var(--c-sub);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: var(--r-sm);
+      transition: color 0.15s, background 0.15s;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover { color: var(--c-text); background: rgba(255,255,255,0.06); }
+    .nav-links a.active { color: var(--c-text); }
+
+    .nav-cta {
+      background: var(--c-green) !important;
+      color: #fff !important;
+      margin-left: 6px;
+    }
+
+    .nav-cta:hover { opacity: 0.88; background: var(--c-green) !important; }
+
+    .nav-divider {
+      width: 0.5px;
+      height: 16px;
+      background: var(--c-border);
+      margin: 0 8px;
+    }
+
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .nav-toggle span {
+      display: block;
+      width: 20px;
+      height: 1px;
+      background: var(--c-text);
+    }
+
+    /* ── INTRO SECTION ── */
+    .intro {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    .intro-label {
+      font-size: 11px;
+      color: var(--c-ter);
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      font-family: sans-serif;
+    }
+
+    .intro-title {
+      font-size: clamp(24px, 4vw, 34px);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+      color: var(--c-text);
+      margin-bottom: 1.25rem;
+    }
+
+    .intro-body {
+      font-size: 15px;
+      color: var(--c-sub);
+      line-height: 1.9;
+      margin-bottom: 1rem;
+    }
+
+    .intro-link {
+      font-size: 14px;
+      color: var(--c-green);
+      text-decoration: none;
+    }
+
+    .intro-link:hover { text-decoration: underline; }
+
+    /* ── DIVIDER ── */
+    .section-sep {
+      max-width: 640px;
+      margin: 2rem auto;
+      border: none;
+      border-top: 0.5px solid var(--c-border);
+    }
+
+    /* ── DEPTH SECTION ── */
+    .depth {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 0 1.5rem 2rem;
+    }
+
+    .depth-title {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--c-text);
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .depth-item {
+      margin-bottom: 1.25rem;
+    }
+
+    .depth-item-label {
+      font-size: 12px;
+      color: var(--c-green);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-family: sans-serif;
+      margin-bottom: 0.4rem;
+    }
+
+    .depth-item-text {
+      font-size: 14px;
+      color: var(--c-sub);
+      line-height: 1.85;
+    }
+
+    /* ── CARD APP ── */
+    .card-app {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    #pageTitle {
+      font-size: 1.6em;
+      color: var(--c-text);
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 2rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    #cardInfo {
+      font-size: 1.1em;
+      color: var(--c-sub);
+      text-align: center;
+      margin-bottom: 1.25rem;
+      font-family: sans-serif;
+      letter-spacing: 0.04em;
+    }
+
+    #card {
+      background: url('https://bebeforedo.github.io/carddrawing/images/back.png') no-repeat center/contain;
+      background-color: transparent;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      transition: transform 0.6s ease;
+      transform-style: preserve-3d;
+      position: relative;
+      border-radius: 10px;
+      margin-bottom: 1.75rem;
+    }
+
+    #slowBreathText {
+      font-size: 13px;
+      color: var(--c-ter);
+      margin-bottom: 1.25rem;
+      text-align: center;
+      font-family: sans-serif;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    #drawCardButton {
+      padding: 12px 28px;
+      font-size: 15px;
+      background: var(--c-green);
+      color: #fff;
+      border: none;
+      border-radius: var(--r-sm);
+      cursor: pointer;
+      transition: opacity 0.2s;
+      font-family: 'Georgia', serif;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.75rem;
+    }
+
+    #drawCardButton:hover { opacity: 0.88; }
+
+    #readButton {
+      padding: 12px 28px;
+      font-size: 15px;
+      background: transparent;
+      color: var(--c-green);
+      border: 0.5px solid var(--c-green);
+      border-radius: var(--r-sm);
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: 'Georgia', serif;
+      letter-spacing: 0.02em;
+    }
+
+    #readButton:hover { background: var(--c-green-bg); }
+
+    /* ── CTA SECTION ── */
+    .cta-section {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 1.5rem;
+      border-top: 0.5px solid var(--c-border);
+      text-align: center;
+    }
+
+    .cta-title {
+      font-size: 20px;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--c-text);
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .cta-body {
+      font-size: 14px;
+      color: var(--c-sub);
+      line-height: 1.85;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: var(--c-green);
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 28px;
+      border-radius: var(--r-sm);
+      font-size: 14px;
+      font-family: 'Georgia', serif;
+      transition: opacity 0.2s;
+    }
+
+    .cta-btn:hover { opacity: 0.88; }
+
+    .cta-sub {
+      font-size: 12px;
+      color: var(--c-ter);
+      margin-top: 1rem;
+      line-height: 1.7;
+      font-family: sans-serif;
+    }
+
+    .cta-sub a { color: var(--c-ter); }
+
+    /* ── FOOTER ── */
+    .footer {
+      border-top: 0.5px solid var(--c-border);
+      padding: 1.5rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .footer p {
+      font-size: 11px;
+      color: var(--c-ter);
+      font-family: sans-serif;
+      letter-spacing: 0.04em;
+    }
+
+    .tagline {
+      font-size: 13px;
+      color: var(--c-ter);
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+
+    /* ── MOBILE ── */
+    @media (max-width: 600px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 52px;
+        left: 0;
+        right: 0;
+        background: #111110;
+        border-bottom: 0.5px solid var(--c-border);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.75rem 1.25rem 1rem;
+        gap: 2px;
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a { width: 100%; padding: 10px 12px; }
+      .nav-cta { margin-left: 0 !important; margin-top: 6px; }
+      .nav-divider { display: none; }
+      .nav-toggle { display: flex; }
+    }
+  </style>
 </head>
 <body>
-    <h1 id="pageTitle">存在狀態先於行動</h1>
-    
-    <p id="cardInfo" style="display: none;"></p>
 
-    <div id="card" style="background: url('images/back.png') no-repeat center/cover; width: 300px; height: 450px;"></div>
-    
-    <button id="drawCardButton">我的當下狀態</button>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="https://www.iamfeeling.com/" class="nav-logo">iamfeeling™</a>
+      <button class="nav-toggle" id="navToggle" aria-label="選單">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="https://www.iamfeeling.com/experiment">感知實驗</a>
+        <a href="https://bebeforedo.github.io/carddrawing/" class="active">每日抽牌</a>
+        <a href="https://bedo.beehiiv.com/p/tune-in" target="_blank" class="nav-cta">加入對頻</a>
+        <div class="nav-divider"></div>
+        <a href="https://bedo.beehiiv.com/p/about" target="_blank">關於我</a>
+        <a href="https://bedo.beehiiv.com/p/the-system" target="_blank">關於這個系統</a>
+        <a href="https://bedo.beehiiv.com/p/freedom" target="_blank">關於這個時代</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 品牌介紹 -->
+  <div class="intro">
+    <div class="intro-label">每日抽牌，走進 98%</div>
+    <h1 class="intro-title">帶著一張牌，<br>讓完整意識進入生活</h1>
+    <p class="intro-body">每天抽一張牌，不是解讀它，而是帶著它去生活。牌來自你未察覺的意識，以圖像的方式，不是語言。圖像能繞過腦子的分析，直接觸碰感受。不要用文字和分析去理解它，只需要看著它，注意那個讓你停下來的角落，那個說不清楚為什麼都有感覺的地方。</p>
+    <p class="intro-body">帶著它去生活幾天——遇到的人、看到的顏色、突然想起的一個畫面，開始和那張牌說同一種語言。甚至讓你遺忘的過去來找你。這些都是來自你不知道的意識層，它們穿越生活滿滿的節奏，帶來特殊的意義。</p>
+    <a href="https://bedo.beehiiv.com/p/the-system" target="_blank" class="intro-link">想看一個真實的示範？帶著牌去生活，是什麼感覺。→</a>
+  </div>
+
+  <hr class="section-sep">
+
+  <!-- 三層深度 -->
+  <div class="depth">
+    <h2 class="depth-title">每張牌有三個深度可以進入</h2>
+    <div class="depth-item">
+      <div class="depth-item-label">第一層　傳統牌義</div>
+      <div class="depth-item-text">這張牌在系統裡的位置與意義。</div>
+    </div>
+    <div class="depth-item">
+      <div class="depth-item-label">第二層　地海巫師</div>
+      <div class="depth-item-text">地海巫師說的是一件每個人都經歷過的事——我們深深受困於社會對語言的制式約定，用別人給的名字定義自己，用借來的框架理解世界。但每個人都有能力面對自己真實的樣子，接受那個還沒有被命名的部分。那一刻，你成為自己的魔法師。這一層牌義，是邀請你用這個視角重新看這張牌。</div>
+    </div>
+    <div class="depth-item">
+      <div class="depth-item-label">第三層　從真實生活長出來的意義</div>
+      <div class="depth-item-text">內在在智慧如果不進入行動、不進入生活，至多是停留片刻的「理解」。那個理解讓你感覺良好，但對生命毫無作用。第三層是這張牌在真實生活裡的樣子——不是概念，是它走進日常之後留下的痕跡。帶著它去生活，讓它結晶成形。這就是你與你的意識共創的生命故事。</div>
+    </div>
+  </div>
+
+  <hr class="section-sep">
+
+  <!-- 抽牌程式 -->
+  <div class="card-app">
+    <h2 id="pageTitle">存在狀態先於行動</h2>
+    <p id="cardInfo" style="display:none;"></p>
+    <div id="card"></div>
     <p id="slowBreathText">請將呼吸放慢</p>
-    
-   <button id="readButton" style="display: none;">看牌義</button>
+    <button id="drawCardButton">我的當下狀態</button>
+    <button id="readButton" style="display:none;">看牌義</button>
+  </div>
 
-    <script src="script.js"></script>
+  <hr class="section-sep">
+
+  <!-- 對頻 CTA -->
+  <div class="cta-section">
+    <h2 class="cta-title">穿透困境，讓訊號落地</h2>
+    <p class="cta-body">如果你被困住了，帶著這張牌還不夠——你需要一個幫助你穿越空間的方式，以及讓它真正落地的地方。歡迎你來參加對頻｜iamfeeling™，每周四晚上 8:00，一場線上靜默創作活動。沒有分享環節，不需要開口說話。只有二十個人同步的呼吸，和各自在那個振動裡進行的創作。</p>
+    <a href="https://bedo.beehiiv.com/p/tune-in" target="_blank" class="cta-btn">立刻報名 對頻｜iamfeeling™ →</a>
+    <p class="cta-sub">
+      不只是電子報，而是一份讓生命重獲完整的必要練習。<br>
+      或者，<a href="https://www.iamfeeling.com/archive" target="_blank">先閱讀過去的電子報 →</a>
+    </p>
+  </div>
+
+  <footer class="footer">
+    <p>iamfeeling™ &nbsp;·&nbsp; BeDo LLC &nbsp;·&nbsp; 影響顧問有限公司</p>
+    <p class="tagline">AI or not，當外在座標不再——用生活創作，成為自己系統裡的太陽。</p>
+  </footer>
+
+  <script>
+    // Nav toggle
+    document.getElementById('navToggle').addEventListener('click', function(){
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+
+    // Card app - images served from original repo
+    var BASE = 'https://bebeforedo.github.io/carddrawing/';
+
+    fetch(BASE + 'updated_tarot-card.json')
+      .then(function(r){ return r.json(); })
+      .then(function(tarotCards){
+        var img = new Image();
+        img.src = BASE + 'images/back.png';
+
+        var card = document.getElementById('card');
+        var readButton = document.getElementById('readButton');
+        var drawCardButton = document.getElementById('drawCardButton');
+        var pageTitle = document.getElementById('pageTitle');
+        var slowBreathText = document.getElementById('slowBreathText');
+        var cardInfo = document.getElementById('cardInfo');
+
+        img.onload = function(){
+          var aspectRatio = img.naturalWidth / img.naturalHeight;
+          var cardWidth = 300;
+          var cardHeight = cardWidth / aspectRatio;
+          card.style.width = cardWidth + 'px';
+          card.style.height = cardHeight + 'px';
+          card.style.background = "url('" + BASE + "images/back.png') no-repeat center/contain";
+          card.style.backgroundSize = 'contain';
+        };
+
+        drawCardButton.addEventListener('click', function(){
+          card.style.transform = 'rotateY(180deg)';
+          card.style.transition = 'transform 0.6s ease';
+
+          setTimeout(function(){
+            var randomIndex = Math.floor(Math.random() * tarotCards.length);
+            var selectedCard = tarotCards[randomIndex];
+
+            card.style.transition = 'none';
+            card.style.transform = 'rotateY(0deg)';
+            card.style.background = "url('" + selectedCard.image + "') no-repeat center/contain";
+
+            cardInfo.innerHTML = selectedCard.name_chinese + ' / ' + selectedCard.element_chinese;
+            cardInfo.style.display = 'block';
+
+            if(readButton){
+              readButton.style.display = 'block';
+              readButton.addEventListener('click', function(){
+                window.open(selectedCard.detailUrl, '_blank');
+              });
+            }
+
+            pageTitle.style.display = 'none';
+            drawCardButton.style.display = 'none';
+            slowBreathText.style.display = 'none';
+          }, 600);
+        });
+      })
+      .catch(function(e){ console.error('Error fetching tarot cards:', e); });
+  </script>
+
 </body>
 </html>
